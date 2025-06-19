@@ -50,7 +50,7 @@ Carlos Alexandro Becker
 
 # March, 2016
 
-- I now have a of dozen Go projects
+- I now have a dozen of Go projects
 - All of them need releasing
 - Moved that script into its [own repository](https://github.com/getantibody/antibody/commit/5d06dae0c78d1655fc243183f96d8a0a7a3cc197)
 - Configuration via `--flags`
