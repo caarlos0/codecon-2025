@@ -2,11 +2,12 @@ slidenumbers: true
 footer: Carlos Becker - Codecon Summit 2025
 slide-transition: fade(0.5)
 theme: Plain Jane
-slide-dividers: #
 
 # [fit] Building GoReleaser
 
 ## [fit] from shell script to paid product
+
+---
 
 # $ whoami
 
@@ -19,12 +20,16 @@ Carlos Alexandro Becker
 
 ![fit right](https://carlosbecker.com/carlos-and-bash.png)
 
+---
+
 # Agenda
 
 1. What is GoReleaser
 1. The Lore
 1. Lessons learned
 1. The Future
+
+---
 
 # GoReleaser
 
@@ -37,9 +42,13 @@ Carlos Alexandro Becker
 
 ![fit right](https://raw.githubusercontent.com/goreleaser/artwork/refs/heads/master/goreleaserfundo.png)
 
+---
+
 # The Lore
 
-# 2015: The beginning
+---
+
+## 2015: The beginning
 
 - I was working on one of my Go projects
 - Created a [`release.sh`](https://github.com/getantibody/antibody/commit/5d06dae0c78d1655fc243183f96d8a0a7a3cc197)
@@ -48,7 +57,9 @@ Carlos Alexandro Becker
 
 ![fit right](much.png)
 
-# 2016: Rewrite in Go
+---
+
+## 2016: Rewrite in Go
 
 - I now have a dozen of Go projects
 - Moved that script into its [own repository](https://github.com/getantibody/antibody/commit/5d06dae0c78d1655fc243183f96d8a0a7a3cc197)
@@ -63,7 +74,9 @@ It sucked, but scratched the itch
 "It'll suck to do that with bash..."
 "Gonna make this into a Go project!"
 
-# 2017: Spreading the word
+---
+
+## 2017: Spreading the word
 
 - Kept adding features to it
 - Wife drew the mascot/logo
@@ -71,7 +84,9 @@ It sucked, but scratched the itch
 - Meetups
 - \>1k stars
 
-# 2018: Burning out
+---
+
+## 2018: Burning out
 
 - nFPM
 - \>1k public repositories using it
@@ -80,7 +95,9 @@ It sucked, but scratched the itch
 - Refactor the core to support multiple languages
 - Burnout
 
-# 2019 & 2020: Recovering and COVID
+---
+
+## 2019 & 2020: Recovering and COVID
 
 - Recovering from burnout
 - Started talking about launching a v1.0.0
@@ -88,9 +105,11 @@ It sucked, but scratched the itch
 
 ---
 
-![inline](./wth.gif)
+![](./wth.gif)
 
-# 2021: We are SO back!
+---
+
+## 2021: We are SO back!
 
 - _GoTime_ Podcast
 - **GoReleaser Pro**
@@ -98,25 +117,35 @@ It sucked, but scratched the itch
 - Proper release announcements
 - GitHub Sponsors
 
-# 2022: Full-time open source
+---
+
+## 2022: Full-time open source
 
 - Working at Charm, doing OSS all day long
 - \>10k stars
 - \>1k commits
 
-# 2023: More professional
+---
+
+## 2023: More professional
 
 - Release calendar
 - Release announcements
 - \>12k stars
 
-# 2024: At last, multiple languages
+---
+
+## 2024: At last, multiple languages
 
 - Launched **v2.0.0** 🎉
 - Rust and Zig support!
 - \>14k stars
 
-# 2025: Moving forward
+![right](./mascots.png)
+
+---
+
+## 2025: Moving forward
 
 - Bun, Deno, Poetry, and UV support
 - _Cup o' Go_ and _Fallthrough_ Podcasts
@@ -124,73 +153,90 @@ It sucked, but scratched the itch
 - ~200 customers and ~15k stars
 - _Codecon Summit_ 🙃
 
+---
+
 # Lessons learned
 
-# Boring software
+---
+
+## Boring software
 
 _Boring is good_, actually.
 
 Boring is _predictable_.
 
-Turns out people want _predictable_ when releasing their software.
+Turns out people want _predictability_ instead of _novelty_ when releasing their software.
 
-# Distribution
+---
 
-You can game it a little bit, but luck still plays a big role.
+## Distribution
 
-Good README, some art/screenshots helps.
+Really hard, unless you are a _tech influencer_.
 
-# Naming things is hard
+Making good stuff, having a good READMEs, with some cool artwork, helps.
+
+---
+
+## Naming things is hard
 
 - "it releases Go binaries, its GoReleaser"
 - "gore leaser"
 - mix up with `gorelease` (without the `r`)
-- locked in to the tech
+- the **Go** prefix
 
-# _"die Welt ist ein Dorf"_
+---
 
-Because of GoReleaser, I got to meet and chat with a lot of amazing people.
+## Pricing
 
-Who you know matters a lot more than I thought back then.
+- Harder than pricing physical products
+- Guess based on what you know
+- Enterprises usually expect overcharging
+- Legalese, forms, etc
 
-# Enterprise plans should be expensive
+---
 
-- **So. Much. Paperwork.**
-- They ask a lot about you, your product, and your processes
-- It makes sense to charge extra, as you'll spend hours filling this stuff
-- Most of it doesn't matter in our specific case, they ask anyway
-
-# Licensing
+## Licensing
 
 - MIT is probably too permissive
-- If you plan to monetize, mind the license
+- Changing later might feel like bait-and-switch
+- Consider changing it earlier rather than later
 
-# Flexibility
+---
 
-The more flexible, the crazier it gets.
+## Flexibility, Simplicity, and finding balance
 
-TODO: more
+- I love flexible software
+- It leads to madness
+- I hate flexible software
+- Scope creep, accidental complexity
+- "it depends"
 
-# Simplicity
+![right 140%](./seen-things.gif)
 
-Scope creeps into every project that lives long enough.
+---
 
-TODO: more
+## Building products
 
-# Building products
+- Starting from an existing problem will give you better chances of succeeding
+- Side projects for fun and studying are still good though!
 
-Solve the problem you already have instead of finding a problem for the
-solution you thing would be fun to implement.
+---
 
 # The Future
 
-- Support more languages
-- Support more distribution channels
+---
+
+## The future
+
+- Support more languages and distribution channels
+- Improve docs, error messages, etc
 - tl;dr keep working on it
 
-# Thanks!
+---
 
-![inline](./thanks.gif)
+![](./thanks.gif)
+
+---
 
 # Links
 
