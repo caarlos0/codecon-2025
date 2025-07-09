@@ -7,6 +7,8 @@ theme: Plain Jane
 
 ## [fit] from shell script to paid product
 
+![](./presentation2.png)
+
 ---
 
 # $ whoami
@@ -18,7 +20,7 @@ Carlos Alexandro Becker
 - maintains `@goreleaser`
 - [`caarlos0.dev`](https://caarlos0.dev)
 
-![fit right](https://carlosbecker.com/carlos-and-bash.png)
+![fit right](./carlos-and-bash.png)
 
 ---
 
@@ -40,11 +42,13 @@ Carlos Alexandro Becker
 - Supports Go, Rust, Zig, Python, and TypeScript
 - [goreleaser.com](https://goreleaser.com)
 
-![fit right](https://raw.githubusercontent.com/goreleaser/artwork/refs/heads/master/goreleaserfundo.png)
+![fit right](./goreleaserfundo.png)
 
 ---
 
 # The Lore
+
+![](./presentation2.png)
 
 ---
 
@@ -84,6 +88,8 @@ It sucked, but scratched the itch
 - Meetups
 - \>1k stars
 
+![fit right](./goreleaserfundo.png)
+
 ---
 
 ## 2018: Burning out
@@ -92,8 +98,10 @@ It sucked, but scratched the itch
 - \>1k public repositories using it
 - OpenCollective
 - More meetups, _Gophercon Brazil_
-- Refactor the core to support multiple languages
+- Core now supports multiple languages, but didn't add any 🤦‍♂️
 - Burnout
+
+^ if you constantly ask yourself whether you are burn out or not, it might be worth checking it. Also, if your partner says you work too much, they probably right
 
 ---
 
@@ -102,6 +110,8 @@ It sucked, but scratched the itch
 - Recovering from burnout
 - Started talking about launching a v1.0.0
 - \>5k stars
+
+^ exercise, cut alcohol, eat clean, lower social media usage
 
 ---
 
@@ -122,15 +132,15 @@ It sucked, but scratched the itch
 ## 2022: Full-time open source
 
 - Working at Charm, doing OSS all day long
+- Split & Merge, `--nightly`, AUR
 - \>10k stars
-- \>1k commits
 
 ---
 
 ## 2023: More professional
 
 - Release calendar
-- Release announcements
+- Ko, health check, upx, nix, Winget
 - \>12k stars
 
 ---
@@ -139,6 +149,7 @@ It sucked, but scratched the itch
 
 - Launched **v2.0.0** 🎉
 - Rust and Zig support!
+- DMG, MSI, macOS notary, App Bundles,
 - \>14k stars
 
 ![right](./mascots.png)
@@ -148,6 +159,7 @@ It sucked, but scratched the itch
 ## 2025: Moving forward
 
 - Bun, Deno, Poetry, and UV support
+- AI changelog, MCP server, NPM, Casks
 - _Cup o' Go_ and _Fallthrough_ Podcasts
 - Better support for desktop apps
 - ~200 customers and ~15k stars
@@ -156,6 +168,8 @@ It sucked, but scratched the itch
 ---
 
 # Lessons learned
+
+![](./presentation2.png)
 
 ---
 
@@ -223,6 +237,8 @@ Making good stuff, having a good READMEs, with some cool artwork, helps.
 ---
 
 # The Future
+
+![](./presentation2.png)
 
 ---
 
