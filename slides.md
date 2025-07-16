@@ -9,7 +9,7 @@ theme: Plain Jane
 
 ![](./presentation2.png)
 
-^ hi! i'm very happy to be here today, and I hope this is interesting to y'all
+^ oi! estou muito feliz de estar aqui hoje, e espero que isso seja interessante para vocês
 
 ---
 
@@ -24,8 +24,8 @@ Carlos Alexandro Becker
 
 ![fit right](./carlos-and-bash.png)
 
-^ i'm no influencer, so this is me and my dog, bash.
-work, oss stuff, site with socials
+^ não sou influencer, então esse sou eu e meu cachorro, bash.
+trabalho, coisas de oss, site com redes sociais
 
 ---
 
@@ -36,10 +36,8 @@ work, oss stuff, site with socials
 1. Lessons learned
 1. The Future
 
-^ what i planned for today is to quickly explain what goreleaser is, tell you
-how it got where it is today, share some things I learned, some of which are
-maybe a bit counter intuitive, and the plans for the future.
-its not the washed down story, but the real stuff that happened, both good and ugly
+^ o que planejei para hoje é explicar rapidamente o que é o goreleaser, contar como chegou onde está hoje, compartilhar algumas coisas que aprendi, algumas das quais são talvez um pouco contra-intuitivas, e os planos para o futuro.
+não é a história enfeitada pra pegar view no instagram, e sim coisas reais que aconteceram, tanto boas quanto as ruins
 
 ---
 
@@ -48,7 +46,7 @@ its not the washed down story, but the real stuff that happened, both good and u
 - Release automation tool
 - Build, package, sign, publish, announce
 - Configurable through a `.yaml` file
-- Nudges you into doing the _right thing_
+- Nudges you into doing the _"right thing"_
 - Supports Go, Rust, Zig, Python, and TypeScript
 - [goreleaser.com](https://goreleaser.com)
 
@@ -71,11 +69,11 @@ its not the washed down story, but the real stuff that happened, both good and u
 
 ![fit right](much.png)
 
-^ it starts kind of by accident.
-I was just learning go, and had a side project.
-I created a shell script, without knowing it'll end up being a product.
-It was nothing special, just a shell script, like many before it, and many after it
-honest work, though
+^ começa meio que por acidente.
+Eu estava apenas aprendendo go, e tinha um projeto paralelo.
+Criei um shell script pra resolver meu problema.
+Não era nada especial, apenas um script shell, como muitos antes dele, e muitos depois dele
+por alguns meses não pensei mais nisso, meu shell funcionava.
 
 ---
 
@@ -87,10 +85,11 @@ honest work, though
 - Rewrote it in Go
 - Shared it online, and people liked it!
 
-^ Now with more project, all of them need releasing - Configuration via `--flags`
-It sucked, but scratched the itch
-"I need Homebrew" "It'll suck to do that with bash..." "Gonna make this into a Go project!"
-shared it online, and to my surprise people liked it!
+^ Agora com mais projetos, todos eles precisam de releases
+Movi pra um repo proprio, configs via `--flags`. Era ruim, mas resolveu o problema por mais alguns meses.
+Ja em dezembro, nas ferias de final de ano, ao inves de ficar de boa, tava eu la codando.
+"Preciso do Homebrew" "Vai ser ruim fazer isso com bash..." "Vou transformar isso num projeto Go!"
+compartilhei online, e para minha surpresa as pessoas gostaram!
 
 ---
 
@@ -104,26 +103,28 @@ shared it online, and to my surprise people liked it!
 
 ![fit right](./goreleaserfundo.png)
 
-^ as it rose in popularity, I kept adding more features, wife drew a mascot, and I started talking about it in some local meetups
-by EOY it had about 1k stars already
+^ percebi que tinha criado um projeto mais legal do que achei que seria.
+conforme crescia em popularidade, continuei adicionando mais recursos, minha esposa desenhou um mascote, e comecei a falar sobre isso em alguns meetups locais em joinville
+no final do ano já tinha mais de 1k stars
 
 ---
 
 ## 2018: Burning out
 
-- nFPM
+- Created nFPM & OpenCollective
 - \>1k public repositories using it
-- OpenCollective
-- More meetups + _Gophercon Brazil_
+- More meetups & _Gophercon Brazil_
 - Refactored core to support multiple languages, eventually
+- \>3k stars
 - Burnout
 
-^ created nfpm, the first spinoff project.
-OpenCollective had some cool companies donating, and is still active today.
-1k repos based on github search.
-wanted to support multiple langs as plugins.
-burnout: if you constantly ask yourself whether you are burn out or not, it might be worth checking it. Also, if your partner says you work too much, they probably right
-i still don't really feel too comfortable talking about this, but I did write a bit about more it, link gonna be in the end of the slides.
+^ 2018 eu trabalhei pra baralho.
+criei o nfpm, o primeiro projeto derivado, e criei a pag no OpenCollective, ja com algumas empresas legais doando, e ainda está ativo hoje.
+falei em mais meetups, e na gophercon brasil.
+queria suportar múltiplas linguagens como plugins, deixei meio pronto achando que suporte iria melhorar no Go - o que nunca aconteceu.
+1k repos baseado na busca do github. e 3k stars
+burnout: se você constantemente se pergunta se está em burnout ou não, pode valer a pena verificar. Além disso, se seu parceiro diz que você trabalha demais, provavelmente está certo
+ainda não me sinto muito confortável falando sobre isso, mas escrevi um pouco mais sobre isso, link vai estar no final dos slides.
 
 ---
 
@@ -133,14 +134,16 @@ i still don't really feel too comfortable talking about this, but I did write a 
 - Planning v1.0.0
 - \>5k stars
 
-^ exercise, cut alcohol, eat clean, lower social media usage
-also started talking about a v1, but i was mostly just cruising along and trying to work on other stuff
+^ basicamente 2019 tentei me recuperar do burnout.
+Mudei de emprego, melhorei rotina de exercício, cortei álcool, comendo mais limpo
+também comecei a falar sobre e planejar uma v1, mas estava principalmente apenas indo com a mare pela maior parte do ano
 
 ---
 
 ![](./wth.gif)
 
-^ i mean 2020 is basically a blur i don't even remember most of it
+^ quer dizer, 2020 é basicamente um borrão, nem lembro da maior parte
+mas FWIW, terminei 2020 muito melhor de saude fisicamente e mentalmente.
 
 ---
 
@@ -150,14 +153,14 @@ also started talking about a v1, but i was mostly just cruising along and trying
 - Launched **v1.0.0!** 🎉
 - GitHub Sponsors
 - **GoReleaser Pro**
+- \>9k stars
 
-^ 2021 was a good year!
-being at a podcast of that caliber was something that young me would never dream of. it felt like a big achievement, especially considering i come from a simple family from rural brazil.
-was on the first batch to have sponsors enabled in brazil, or maybe SA, don't remember.
-sponsors did give some money, but it didn't feel sustainable, and it is usually more "fame" related than anything else
-so, to try to make things sustainable, I launched goreleaser pro, a paid version with extra features.
-i confess, I thought it wouldnt work, and if it didnt, i was probably gonna move on to something else
-to my surprise, it did! and now the real fun begins
+^ gotime: estar num podcast desse calibre era algo que o jovem eu nunca sonharia. pareceu uma grande conquista, especialmente considerando que venho de uma família simples do interior do brasil.
+estava no primeiro lote a ter sponsors habilitado no brasil, ou talvez SA, não lembro ao certo. Mas foi massa.
+sponsors deram algum dinheiro, mas não parecia que algum dia seria sustentável, me parece geralmente mais relacionado à "fama" do que qualquer outra coisa
+então, para tentar tornar as coisas sustentáveis, lancei o goreleaser pro, uma versão paga com recursos extras.
+confesso, achei que não funcionaria, e se não funcionasse, provavelmente teria parado de investir tanto tempo no projeto.
+para minha surpresa, funcionou! e agora a diversão real começa
 
 ---
 
@@ -168,10 +171,10 @@ to my surprise, it did! and now the real fun begins
 - Proper release announcements
 - \>10k stars
 
-^ started working at charm, doing mostly dev tooling oss there.
-it was my dream years earlier, fulfilled it by accident, feelings of not deserving it.
-anyway, continue to work on things, like split and merge, nightly builds, and more.
-also, got to 10k stars
+^ comecei a trabalhar na charm, fazendo principalmente dev tooling oss lá.
+era meu sonho uma decada antes, e agora meio que por cagada to aqui.
+enfim, continuei trabalhando nas coisas, como split e merge, nightly builds, e mais.
+também passamos a 10k estrelas
 
 ---
 
@@ -181,10 +184,10 @@ also, got to 10k stars
 - Ko, health check, upx, nix, Winget
 - \>12k stars
 
-^ by 2022 i was already following more or less 1 feature release per month, but in 2023 I made it official.
-also documented properly which versions are supported, etc etc.
-also added many new features, like Ko, upx, nix, winget, and more
-and we hit 12k stars
+^ pelo final 2022 já estava seguindo mais ou menos 1 feature release por mês, mas em 2023 tornei isso oficial.
+também documentei adequadamente quais versões são suportadas na versao free e pro, etc etc.
+finalmente, adicionei diversos recursos novos, como Ko, upx, nix, winget, e mais
+e passamos de 12k estrelas
 
 ---
 
@@ -198,11 +201,10 @@ and we hit 12k stars
 
 ![right](./mascots.png)
 
-^ finally, launched v2, and then, thanks to friends pushing me, finally added Rust support.
-Rio terminal is the first "real application" using goreleaser + rust.
-Also added more stuff around releasing desktop applications vs binaries, e.g. dmg, msi, notarization, app bundles, etc.
-It took years to get 100 customers - but at this point, it finally feels like a business.
-Free version does too much, probably.
+^ finalmente, lancei a v2, e então, graças a meu amigo Raphael que ficou me cobrando, finalmente adicionei suporte a Rust e Zig.
+Rio term é a primeira "aplicação real" usando goreleaser com rust, btw.
+Também adicionei mais coisas relacionadas a aplicações desktop, ex. dmg, msi, notarização, app bundles, etc.
+Levou anos para passar dos 100 clientes - mas neste ponto, finalmente parece um negócio viavel. tldr: eu poderia nao ter mais emprego.
 
 ---
 
@@ -212,14 +214,14 @@ Free version does too much, probably.
 - AI changelog, MCP server, NPM, Casks
 - _Cup o' Go_ and _Fallthrough_ Podcasts
 - Better support for desktop apps
-- \~200 customers, \~15k stars, \~7k commits
+- \~200 customers, \~15k stars
 - _Codecon Summit_ 🙃
 
-^ which brings us to 2025, the year of the linux on the desktop. we're gaming on arch linux handhelds, what a time to be alive.
-well, added support to python and typescript.
-I put it as a goal of mine this year to speak in two conferences, this is the second one! I also went into 2 podcasts so far
-Pro now has 200 paying customers, and a very good MRR. Speaking in brazilian moneys, it pays more then my last job as a senior SRE in Brazil.
-Super happy about that!
+^ o que nos traz para 2025, o ano do linux no desktop. estamos jogando em handhelds arch linux e a AI vai substituir todo mundo 3 meses atras, what a time to be alive
+bem, por enquanto adicionei suporte a python com uv e poetry e typescript com bun e deno.
+coloquei como meta este ano falar em duas conferências, esta é a segunda! também fui em 2 podcasts até agora falar sobre go e goreleaser
+GoReleaser Pro agora tem 200 clientes pagantes, e um MRR muito bom. Falando em dinheiro brasileiro, paga mais que meu último emprego como SRE sênior no Brasil.
+Super feliz com isso!
 
 ---
 
@@ -227,7 +229,7 @@ Super happy about that!
 
 ![](./presentation2.png)
 
-^ well, now onto some of the mistakes I made over the years, and what I learned.
+^ bem, agora para alguns dos erros que cometi ao longo dos anos, e o que aprendi.
 
 ---
 
@@ -237,12 +239,12 @@ Super happy about that!
 - Boring is _predictable_
 - _Boring is good_, actually
 
-^ people don't want surprises in some parts of their lifes, they want stability.
-software releases is already full of anxiety as is, the software that does it should be predictable.
-boring software is predictable, that's one of the reasons its boring.
-everyone wants to work on whatever is cool now, but boring software runs most of the infrastructure, and it'll likely stay that way for a very long time.
-maybe its just me getting old, but I now kinda like boring software.
-boring software is good, actually, most of the times.
+^ pessoas não querem surpresas em algumas partes de suas vidas, elas querem estabilidade.
+releases de software já são cheios de ansiedade como são, entao o software que faz isso deveria ser previsível.
+software chato é previsível, essa é uma das razões pelas quais é chato.
+software chato é bom, na verdade, na maioria das vezes.
+todo mundo quer trabalhar no que é legal agora, mas software chato roda a maior parte da infraestrutura, e provavelmente vai continuar assim por muito tempo.
+talvez seja só eu ficando velho, mas agora meio que gosto de software chato.
 
 ---
 
@@ -250,13 +252,16 @@ boring software is good, actually, most of the times.
 
 - Really hard, unless you are a _tech influencer_
 - Creator and creation get conflated
-- If you are an influencer, you have other problems
+- If you are a _tech influencer_, then you might have other problems
 
-^ this is the hardest problem to solve, and there's no magic solution to it, as it has a lot to do with "vibes" and luck.
-if you get someone famous to use and talk about your thing, you gonna fly high, but that's easier said than done.
-also I'm the goreleaser guy, and that's fine, its just something that might happen.
-So what you say personally also affects the view of your product, and vice-versa.
-If you are influencer i figure you might have other problems, you gotta ask yourself if your thing is doing numbers because its actually good, or if it is because it is you who made it. Likely a combination of both.
+^ este é o problema mais difícil de resolver, e afaik não há solução mágica para isso, pois tem muito a ver com "vibes" e um tanto sorte.
+marketing forcado no geral me parece que não funciona. não passa o vibe check, e a galera não curte.
+ja posts criativos, memes, etc, parecem funcionar ok. vejam htmx no twitter por exemplo.
+agora, se você conseguir que alguém famoso use e fale sobre seu proj, voce provavelmente consegue uma distribuicao boa
+ainda sobre vibes, eu agora sou 'o cara do goreleaser', e tudo bem, é só algo pra ter em mente
+Então o que eu digo pessoalmente também afeta a visão do meu produto, e vice-versa.
+Ja se você é tech influencer, imagino que pode ter outros problemas: você provavelmente em algum momento vai perguntar se sua coisa está fazendo números porque é realmente boa, ou se é porque foi você quem fez. Provavelmente uma combinação de ambos.
+Ex: vejam o pieter levels no twitter. Se ele fizesse o pudim.com.br em 3 dias ele estaria tirando 10k MRR com ads ou algo do tipo
 
 ---
 
@@ -266,8 +271,8 @@ If you are influencer i figure you might have other problems, you gotta ask your
 
 ![inline](./gore_leaser_2.png)
 
-^ i came up with the name after thinking about it for like 5 seconds.
-i didn't realize you could read it wrong after too long.
+^ escolhi o nome depois de pensar sobre isso por uns 5 segundos.
+não percebi que poderia ser lido errado até um bom tempo depois (meses, talvez um ano).
 
 ---
 
@@ -280,12 +285,12 @@ i didn't realize you could read it wrong after too long.
 
 ![right](./gore_leaser.png)
 
-^ eventually, it became sort of a running joke - with art and all
-gorelease without the r from the Go release team.
-go prefix kinda locked me in for a long time, and I bet i'm loosing new users because of it
-and then sometimes perfectly fine english words sound like slur in other languages, etc, etc etc
-if you're doing something you think might be something big, think hard about the name.
-naming things is hard
+^ eventualmente, se tornou meio que uma piada recorrente - com arte e tudo mais
+gorelease sem o r do time de release do Go.
+prefixo go meio que me prendeu por muito tempo, e aposto que estou perdendo novos usuários/clientes por causa disso ate hj
+às vezes palavras perfeitamente normais em inglês soam como palavrão em outras línguas, ou vice versa, etc, etc etc
+se você está fazendo algo que acha que pode ser algo grande, pense bem sobre o nome. facil pedir pro chatgpt hoje em dia pra fazer um check.
+nomear coisas é difícil
 
 ---
 
@@ -293,17 +298,16 @@ naming things is hard
 
 - Harder than pricing physical products
 - _Guess_ based on what you know and what you think it's worth
-- Enterprises usually expect overcharging
-- Legalese, forms, etc
+- Enterprises usually expect overcharging (legal, forms, etc)
 
-^ physical products you can derive the price from the materials plus labor.
-software you're basically allowing access to it, not selling something.
-in my case, there arent even any servers, its just paying for the right to use extra features.
-its hard to price, especially from a POV you don't know.
-I worked mostly in small to medium companies, but really big ones are completely different game.
-lots of legalese, docs, etc
-they expect to be overcharged for that
-so overcharge do overcharge.
+^ produtos físicos você pode derivar o preço dos materiais mais mão de obra.
+software você está basicamente permitindo acesso a ele, não vendendo algo.
+no meu caso, nem há servidores, é só pagar pelo direito de usar recursos extras.
+tldr não tenho nenhuma base de onde derivar um valor, alem das minhas horas de trabalho.
+entao eh basicamente chute, mais ou menos informado, mas chute, especialmente de um POV que você não conhece.
+trabalhei principalmente em empresas pequenas a médias, entao ja tinha uma nocao de preco nessas faixas, mas as realmente grandes são completamente diferentes.
+muito juridiquês, docs, etc, talvez voce inclusive precise de um advogado - e elas esperam ser cobradas a mais por isso
+então cobre a mais.
 
 ---
 
@@ -313,15 +317,14 @@ so overcharge do overcharge.
 - Changing later might feel like bait-and-switch
 - Consider changing it earlier rather than later
 
-^ for better or worse, i always use MIT, its very permissive... almost too permissive
-we all seen it: big corps selling oss as a service, that kind of thing.
-problem is us, the community.
-if any big-ish oss project changes the license, we all complain.
-and we also complain if big corps do big corp stuff, which could be prevented by the first thing.
-anyway, always have a thread with that running in your head, the best time to change the license was yesterday, second best time is today - assuming you're not big yet.
-once you have too many stars, people will feel like its bait and switch.
-you also can't relicense contributions without their approval, and that might simply not be possible (e.g. people die)
-anyway, consider your license as early as possible, if i was gonna start something that I think might be very good, I'd start with a different license, probably
+^ para melhor ou pior, sempre uso MIT, que é bem permissiva... talvez permissiva demais em muitos casos
+todos já vimos: grandes corporações vendendo oss como serviço, esse tipo de coisa.
+e acredito que nos, a comunidade em geral, somos parete do problema
+se qualquer projeto oss meio grande muda a licença, todos reclamamos.
+e também reclamamos se grandes corporações fazem coisas que poderiam ter sido prevenidas pela troca de license.
+uma vez que você tem X popularidade , pessoas vão achar que foi bait and switch, não importa se teu software tem 10 anos ou 10 dias
+você também não pode relicenciar contribuições passadas sem aprovação de quem contribuiu, e isso pode simplesmente não ser possível (ex. pessoas morrem)
+enfim, pense sobre isso o mais cedo possível, se eu fosse começar algo que acho que pode ser muito bom, começaria com uma licença diferente, provavelmente - FSL foi aceita pela SPDX e tenta ser livre e sem free ride ao mesmo tempo. Veremos como roda isso ai
 
 ---
 
@@ -334,30 +337,32 @@ anyway, consider your license as early as possible, if i was gonna start somethi
 
 ![right 140%](./seen-things.gif)
 
-^ we love flexible software. spreadsheets is a good example.
-the more flexible, the crazier it gets, and as a maintainer, you'll get insane tickets that you'll have to understand if you want to help your user.
-so, think hard about it. each new knob you add in combination with all the other knobs already there. i've seen things...
-my learnings on simplicity are a bit more straightforward maybe: its easy talk on new, small software, almost impossible to avoid in old, big software, in the long run.
-you keep adding things, you have users now, so you can't always do it the best way because it might be a breaking change, or take too long, so things get complicated.
-you will end up with some accidental complexity as the scope creeps in.
-the real hard task there is to find balance between scope, simplicity, flexibility, and avoiding breaking changes.
-listen to your gut, its right most of the time. reflect on things, don't be too reactive.
+^ aqui eh mais sobre software em geral do que oss, mas eh algo que enfrentei muito no goreleaser
+todo mundo gosta de software flexível. planilhas é um bom exemplo.
+quanto mais flexível, mais doideira o povo faz, e como mantenedor, você vai receber tickets insanos que terá de entender pra ajudar seu usuário.
+então, hoje antes de adicionar uma nova opcao, tento pensar sobre essa nova config em combinação com todas os outros ja existentes.
++- relacionado, sobre simplicidade o que aconteceu eh perdi um pouco do idealismo que tinah quando mais jovem.
+é fácil falar de simplicidade em software novo e pequeno, mas eh dificil manter tudo "simples" num software velho e grande, no longo prazo.
+você continua adicionando coisas, tem usuários agora, então nem sempre pode fazer da melhor forma porque pode ser uma mudança que quebra, ou demorar muito, então as coisas ficam complicadas.
+você vai acabar com alguma complexidade acidental conforme o escopo cresce, dificil d+ fugir
+a parte realmente difícil aqui é encontrar equilíbrio entre escopo, simplicidade, flexibilidade, e evitar breaking changes
+e a dica que dou aqui eh: sabe qdo vc ta codando um negocio e te da uma vontade de fazer uma careta, ou vem aquela vozinha e fala "ta estranho isso ai"?
+entao, pare, reflita sobre as coisas, vai caminhar um pouco, tomar um cafe, sei la... mas não seja muito reativo.
+uns 90% de todas as cagadas que fiz em software foram coisas que fiz reativamente - ticket apareceu, queria resolver logo, fiz o que veio na ideia na hora, e a primeira ideia quase sempre eh ruim
+enfim, escute seu instinto, está certo na maioria das vezes.
 
 ---
 
 ## Building products
 
-- Starting from an existing problem will give you better chances of succeeding
-- Side projects for fun and studying are still good though!
+- Side projects: for fun and studying
+- Products: solving problems
 
-^ this is maybe the most obvious one but I think its still worth talking about:
-I try to start from a problem, not from something I want to implement.
-Note that I'm talking solving problems, not puzzles.
-We should still play with things for the sake of playing with them, its fine.
-I'm talking specifically about making products.
-By definition its not just a side project, then, its something else, something you maybe want to sell.
-If so, its the same advice given years ago when everyone was doing startups that were not AI: start from a problem you have.
-we all have some, and we can fix one of them, probably, so do fix it, that's your product.
+^ esse ponto eh provavelmente obvio pra maioria, mas acho que especialmente pra quem ta comecando talvez não seja. entao aqui vai:
+a maior parte dos projetos que crio, eu parto de um problema que eu tenho, e tento resolver esse problema.
+vejo mta coisa por ai, especialmente agora com AI, que parece ser "ah eu queria usar X tech pra alguma coisa ai fiz isso aqui", e a regra eh isso não dar bom
+claro, ainda tenho os projetinhos pra brincar com tech nova, aprender coisas, etc
+mas se o objetivo eh fazer um projeto que outras pessoas vao efetivamente usar, as chances de sucesso costumam ser bem melhores se vc partir de um problema.
 
 ---
 
@@ -370,12 +375,12 @@ we all have some, and we can fix one of them, probably, so do fix it, that's you
 ## The future
 
 - Support more languages and distribution channels
-- Improve docs, error messages, etc
+- Improve docs, error messages, small feats, etc
 - tl;dr keep working on it
 
-^ my plans for the future are boring :)
-anyway, I'll probably add more languages and distribution channels, and keep working on everything else
-i hope this talk has been of some value to you, and thanks for your time.
+^ meus planos para o futuro são boring :)
+enfim, provavelmente vou adicionar mais linguagens e canais de distribuição, e continuar trabalhando em todo o resto
+boring eu sei, igual meu slide sobre boring software :)
 
 ---
 
@@ -389,8 +394,7 @@ i hope this talk has been of some value to you, and thanks for your time.
 
 ![](./thanks.gif)
 
-^ well, thats what i have for today, thanks for your attention. hope you enjoyed
-it.
+^ bem, é isso que tenho para hoje, obrigado pela atenção. espero que tenham gostado. vlw!
 
 ---
 
