@@ -60,7 +60,7 @@ não é a história enfeitada pra pegar view no instagram, e sim coisas reais qu
 
 ---
 
-## 2015: The beginning
+## 2015: Epoch
 
 - I was working on one of my Go projects
 - Created a [`release.sh`](https://github.com/getantibody/antibody/commit/5d06dae0c78d1655fc243183f96d8a0a7a3cc197)
@@ -152,6 +152,7 @@ mas FWIW, terminei 2020 muito melhor de saude fisicamente e mentalmente.
 - _GoTime_ Podcast
 - Launched **v1.0.0!** 🎉
 - GitHub Sponsors
+- Proper release announcements
 - **GoReleaser Pro**
 - \>9k stars
 
@@ -168,7 +169,6 @@ para minha surpresa, funcionou! e agora a diversão real começa
 
 - Working at Charm, doing OSS all day long
 - Split & Merge, `--nightly`, AUR
-- Proper release announcements
 - \>10k stars
 
 ^ comecei a trabalhar na charm, fazendo principalmente dev tooling oss lá.
@@ -195,7 +195,7 @@ e passamos de 12k estrelas
 
 - Launched **v2.0.0** 🎉
 - Rust and Zig support!
-- DMG, MSI, macOS notary, App Bundles,
+- DMG, MSI, macOS notary, App Bundles, and more
 - \>14k stars
 - \>100 pro customers
 
